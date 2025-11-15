@@ -102,3 +102,42 @@
     font-size: 2.3rem;
   }
 }
+/* FOOTER SECTION ABOUT US */
+.footer-section {
+    background: linear-gradient(135deg, #e7cfa3, #f5e7cd);
+    border-radius: 20px;
+    padding: 50px 40px !important;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+.footer-section h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #4a3f35;
+}
+
+/* Links */
+.footer-section a {
+    text-decoration: none;
+    color: #4a3f35;
+    font-size: 1.05rem;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.footer-section a:hover {
+    color: #6d2c2c;
+    text-shadow: 0 0 6px rgba(109,44,44,0.3);
+    padding-left: 4px;
+}
+
+/* Spacing between items */
+.footer-section li {
+    margin-bottom: 14px;
+}
+
