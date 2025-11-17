@@ -140,4 +140,32 @@
 .footer-section li {
     margin-bottom: 14px;
 }
+/* Replace Bootstrap default blue (primary) with your custom color */
+:root {
+    --bs-primary: #b38b60;
+}
+
+/* Active list group item */
+.list-group-item.active {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+/* Hover state */
+.btn-primary:hover {
+    background-color: #a37a54 !important;
+    border-color: #a37a54 !important;
+}
+
+/* Active nav link */
+.nav-link.active {
+    color: var(--bs-primary) !important;
+    font-weight: 600;
+}
 
