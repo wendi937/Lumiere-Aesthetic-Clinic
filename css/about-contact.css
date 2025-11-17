@@ -168,4 +168,52 @@
     color: var(--bs-primary) !important;
     font-weight: 600;
 }
+/* CONTACT: Reach Us (left column) */
+.contact-info p strong {
+    color: #6d2c2c;
+    font-weight: 700;
+}
 
+.contact-info a {
+    text-decoration: none;
+    color: #4a3f35;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #6d2c2c;
+    text-shadow: 0 0 6px rgba(109,44,44,0.3);
+    padding-left: 4px;
+}
+/* CONTACT FORM COLUMN */
+.contact-form label {
+    color: #6d2c2c;
+    font-weight: 600;
+}
+
+.contact-form .form-control {
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1px solid #d4c7b5;
+}
+
+.contact-form .form-control:focus {
+    border-color: #b38b60;
+    box-shadow: 0 0 6px rgba(179,139,96,0.5);
+}
+
+/* Submit button */
+.contact-form button {
+    background-color: #6d2c2c !important;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+}
+
+/* Success message spacing */
+#successMsg {
+    margin-top: 15px;
+    border-radius: 8px;
+}
